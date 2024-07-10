@@ -79,6 +79,7 @@ main .why-web-development{
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
+    margin-bottom: 22px;
 }
 .why-web-development .heading-des{
     font-size: 16px;
@@ -125,4 +126,32 @@ main .why-web-development{
 }
 .frame-contents .btn-primary{
     margin-bottom: 15px;
+}
+/* again */
+.my-inspirations .heading-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 22px;
+}
+.my-inspirations .heading-des{
+    font-size: 16px;
+    font-weight: 400;
+}
+.heading-title-and-des{
+    text-align: center;
+}
+/* close again */
+
+.my-inspirations{
+    margin: 100px 180px;
+    padding: 20px;
+}
+.video-border-radius{
+    border-radius: 5px;
+    border: 15px solid whitesmoke;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.youtube-video-link{
+    margin-top: 50px;
 }
