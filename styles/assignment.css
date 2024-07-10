@@ -1,0 +1,128 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ***********************opening header section***************** */
+.btn-primary {
+    width: 208px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #0D1321;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+#hero {
+    height: 652px;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#hero .banner-container {
+    width: 998px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 44px;
+
+}
+
+#hero .banner-container .banner-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+
+#hero .banner-container .banner-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0d1321ce;
+    margin-bottom: 25px;
+   
+}
+#hero .banner-container .using-pc{
+    height: 240px;
+    width: 240px;
+    margin-bottom: 32px;
+}
+
+/* ***********************Closing header section******************/
+.why-web-development{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main .why-web-development{
+    padding: 80px 97px;
+    margin: 70px 150px;
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.why-web-development .heading-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.why-web-development .heading-des{
+    font-size: 16px;
+    font-weight: 400;
+}
+.heading-title-and-des{
+    text-align: center;
+}
+
+.frame-container{
+    width: 946px;
+    height: 336px;
+    /* border: solid 2px black; */
+    padding: 20px;
+
+}
+
+/* frame-containers functions */
+.frame-containers{
+    margin-top: 50px;
+}
+
+.frame-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0px;
+    margin-top: 48px;
+    border-radius: 5px;
+
+}
+.frame-contents .frame-title {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+   
+}
+.frame-contents .frame-summary {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.frame-contents .btn-primary{
+    margin-bottom: 15px;
+}
