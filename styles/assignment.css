@@ -105,6 +105,17 @@ main .why-web-development {
     }
 
 
+.upcoming-goals .goal-link {
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    
+}
+/* .goal-subtitle .need-margin{
+    margin-bottom: 50px;
+} */
+
+
 
 /* frame-containers functions */
 .frame-containers {
