@@ -347,3 +347,9 @@ footer ul{
 .footer-page {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+.upcoming-goals a {
+    margin: 16px 0px;
+}
+.header-title-and-des-help .need-center{
+    align-items: center;
+}
