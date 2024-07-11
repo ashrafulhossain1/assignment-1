@@ -54,42 +54,46 @@
     font-weight: 400;
     color: #0d1321ce;
     margin-bottom: 25px;
-   
+
 }
-#hero .banner-container .using-pc{
+
+#hero .banner-container .using-pc {
     height: 240px;
     width: 240px;
     margin-bottom: 32px;
 }
 
 /* ***********************Closing header section******************/
-.why-web-development{
+.why-web-development {
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-main .why-web-development{
+main .why-web-development {
     padding: 80px 97px;
     margin: 70px 150px;
-    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
-.why-web-development .heading-title{
+
+.why-web-development .heading-title {
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
     margin-bottom: 22px;
 }
-.why-web-development .heading-des{
+
+.why-web-development .heading-des {
     font-size: 16px;
     font-weight: 400;
 }
-.heading-title-and-des{
+
+.heading-title-and-des {
     text-align: center;
 }
 
-.frame-container{
+.frame-container {
     width: 946px;
     height: 336px;
     /* border: solid 2px black; */
@@ -98,11 +102,11 @@ main .why-web-development{
 }
 
 /* frame-containers functions */
-.frame-containers{
+.frame-containers {
     margin-top: 50px;
 }
 
-.frame-container{
+.frame-container {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -113,45 +117,233 @@ main .why-web-development{
     border-radius: 5px;
 
 }
+
 .frame-contents .frame-title {
     margin-bottom: 15px;
     font-size: 24px;
     font-weight: 700;
-   
+
 }
+
 .frame-contents .frame-summary {
     margin-bottom: 15px;
     font-size: 16px;
     font-weight: 700;
 }
-.frame-contents .btn-primary{
+
+.frame-contents .btn-primary {
     margin-bottom: 15px;
 }
+
 /* again */
-.my-inspirations .heading-title{
+.my-inspirations .heading-title {
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
     margin-bottom: 22px;
 }
-.my-inspirations .heading-des{
+
+.my-inspirations .heading-des {
     font-size: 16px;
     font-weight: 400;
+    color: #0d1321bc;
 }
-.heading-title-and-des{
+
+.heading-title-and-des {
     text-align: center;
 }
+
 /* close again */
 
-.my-inspirations{
+.my-inspirations {
     margin: 100px 180px;
     padding: 20px;
 }
-.video-border-radius{
+
+.video-border-radius {
     border-radius: 5px;
     border: 15px solid whitesmoke;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
-.youtube-video-link{
+
+.youtube-video-link {
     margin-top: 50px;
+}
+
+/********* My current target 4th *******/
+/* again */
+.my-next-target .heading-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 22px;
+}
+
+.my-next-target .heading-des {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    color: #0d1321bc;
+}
+
+.heading-title-and-des {
+    text-align: center;
+}
+
+.upcoming-goals {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.my-next-target {
+    margin: 150px;
+}
+
+.goal-1,
+.goal-2,
+.goal-3 {
+    width: 300px;
+    height: 300px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    padding: 20px;
+
+    /*** box of background current skill */
+}
+
+.goal-1 {
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+
+}
+
+.goal-2 {
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.goal-3 {
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+
+}
+
+.need-margin {
+    margin-top: 14px;
+
+}
+
+/* extra************ */
+.frame-summary {
+    color: #0d1321bc;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.heading-des {
+    color: #0d1321bc;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-title {
+    font-size:32px ;
+    color:#0D1321 ;
+    font-weight: 800;
+}
+
+.header-des {
+    font-size:16px ;
+    color:#0d1321bc;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.header-des{
+    text-align: center;
+
+}
+.header-title{
+    text-align: center;
+
+}
+
+/********** My Next target*************/
+/********** My Next target*************/
+ .header-title-and-des{
+    text-align: center;
+    justify-content: center;
+    width: 1041px;
+    height: 186px;
+    align-items: center;
+}
+/* a optional task has been due */
+/* a optional task has been due */
+.support-section{
+    display: flex;
+    margin: 0 150px;
+    background-image: linear-gradient(rgb(16,16,16)-19.5%,rgba(16,16,16,0)100%) ,url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-self: center;
+    width: 1140px;
+    height: 340px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+.support-section .Write-something{
+    width: 400px;
+    height: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.support-section .header-title{
+    color: white;
+    margin-top: 50px;
+}
+.support-section .header-des{
+    color: white;
+}
+.support-section .header-title-and-des{
+    margin:0;
+    justify-content: center;
+    align-items: center;
+}
+.support-section .btn-primary{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: none;
+}
+/* fooooooooter page */
+footer ul li{
+    list-style: none;
+    padding: 15px;
+}
+footer ul{
+    display: flex;
+}
+
+.footer-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.owner-company, .footer-link{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 150px;
+}
+.footer-page {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
