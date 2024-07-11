@@ -11,7 +11,22 @@
 
 
 /* ***********************opening header section***************** */
-.btn-primary {
+/* heading nav section optional */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 150px;
+
+}
+
+/* nav .btn-primary{ */
+    /* height: 58px; */
+    /* width: 328px; */
+    /* background-color: white; */
+    /* color: black; */
+    /* font-size:20px; */
+/* } */
+.btn-primary{
     width: 208px;
     height: 50px;
     border-radius: 8px;
@@ -31,6 +46,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    border: 0.2px black solid;
 }
 
 #hero .banner-container {
@@ -235,9 +251,15 @@ main .why-web-development {
 }
 
 .need-margin {
-    margin-top: 14px;
+    margin: 24px;
 
 }
+.upcoming-goals .goal-link{
+    /* border: 2px solid yellow; */
+    align-items: first baseline;
+    margin-left: 24px;
+}
+
 
 /* extra************ */
 .frame-summary {
@@ -319,7 +341,7 @@ main .why-web-development {
     justify-content: center;
     align-items: center;
 }
-.support-section .btn-primary{
+.support-section .btn-primary, nav .btn-primary{
     background-color: white;
     color: black;
     font-size: 20px;
